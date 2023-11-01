@@ -30,7 +30,7 @@ build_image:
     - docker build -t $IMAGE_NAME:$IMAGE_TAG .
     - docker push $IMAGE_NAME:$IMAGE_TAG
 
-# deploy:
+    deploy:
 #   stage: deploy
 #   needs:
 #     - build_image
